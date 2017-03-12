@@ -1,3 +1,9 @@
+/*
+ * This file is part of Smarkant project
+ *
+ * (C) 2017 Dirk Grappendorf, www.grappendorf.net
+ */
+
 const config = require('./config');
 const Alexa = require('alexa-sdk');
 const AWS = require('aws-sdk');

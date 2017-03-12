@@ -1,0 +1,14 @@
+{
+  "name": "Smarkant",
+  "version": "0.0.1",
+  "description": "AWS Lambda function for the Smarkant Alexa skill",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Dirk Grappendorf, www.grappendorf.net",
+  "license": "MIT",
+  "dependencies": {
+    "is-undefined": "1.0.5",
+    "alexa-sdk": "1.0.7",
+    "aws-sdk": "2.27.0"
+  }
+}

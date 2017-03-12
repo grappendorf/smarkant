@@ -1,0 +1,10 @@
+StopIntent to stop
+StopIntent and stop
+MoveUpIntent to move up
+MoveUpIntent and move up
+MoveDownIntent to move down
+MoveDownIntent and move down
+MoveToPositionIntent to move to position {Position}
+MoveToPositionIntent and move to position {Position}
+MoveToHeightIntent to move to {Height} centimeters
+MoveToHeightIntent and move to {Height} centimeters

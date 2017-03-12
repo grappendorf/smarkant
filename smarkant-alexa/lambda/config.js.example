@@ -1,0 +1,8 @@
+module.exports = {
+  appId: 'YOUR ALEXA SKILL APP ID',
+  iotEndpoint: 'YOUR AWS ENDPOINT',
+  iotRegion: 'YOUR AWS REGION',
+  iotAccessKeyId: 'YOUR AWS ACCESS KEY ID',
+  iotSecretAccessKey: 'YOUR AWS SECRET ACCESS KEY'
+  iotDeciceName: "Smarkant"
+};

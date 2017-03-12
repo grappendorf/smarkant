@@ -1,0 +1,13 @@
+StopIntent er soll anhalten
+StopIntent und halte an
+MoveUpIntent er soll nach oben fahren
+MoveUpIntent und fahre nach oben
+MoveUpIntent und fahre rauf
+MoveDownIntent er soll nach unten fahren
+MoveDownIntent und fahre nach unten
+MoveDownIntent und fahre runter
+MoveToPositionIntent er soll an Position {Position} fahren
+MoveToPositionIntent fahre an Position {Position}
+MoveToPositionIntent fahre auf Position {Position}
+MoveToHeightIntent er soll auf {Height} Zentimeter fahren
+MoveToHeightIntent fahre auf {Height} Zentimeter

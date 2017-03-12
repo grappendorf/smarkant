@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "StopIntent"
+    },
+    {
+      "intent": "MoveUpIntent"
+    },
+    {
+      "intent": "MoveDownIntent"
+    },
+    {
+      "intent": "MoveToPositionIntent",
+      "slots": [
+        {
+          "name": "Position",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "MoveToHeightIntent",
+      "slots": [
+        {
+          "name": "Height",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    }
+  ]
+}

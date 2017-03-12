@@ -1,0 +1,13 @@
+#ifndef _CONFIG_H
+#define _CONFIG_H
+
+const char* WLAN_SSID = "YOUR SSID";
+const char* WLAN_PASSPHRASE = "YOUR PASSPHRASE";
+const char* HOSTNAME = "bekant";
+const char* AWS_ENDPOINT = "YOUR AWS ENDPOINT";
+const char* AWS_REGION = "YOUR AWS REGION";
+const char* AWS_ACCESS_KEY_ID = "YOUR AWS ACCESS KEY ID";
+const char* AWS_SECRET_ACCESS_KEY = "YOUR AWS SECRET ACCESS KEY";
+const char* AWS_DEVICE  = "Smarkant";
+
+#endif

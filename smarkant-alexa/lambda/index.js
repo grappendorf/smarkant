@@ -16,7 +16,9 @@ const STRINGS = {
     'smarkant_moves_to_position': 'Smarkant moves to position {position}!',
     'invalid_position': 'Position {position} is invalid!',
     'smarkant_moves_to_height': 'Smarkant moves to {height} centimeter!',
-    'invalid_height': 'Heigth {height} centimeter is invalid!'
+    'invalid_height': 'Heigth {height} centimeter is invalid!',
+    'smarkant_help': 'You can ask me to "move up", "move down", "move to height", "move to position", and "stop"',
+    'ok': 'Ok.'
   },
   'de-DE': {
     'smarkant_stops': 'Smarkant hält an!',
@@ -25,7 +27,9 @@ const STRINGS = {
     'smarkant_moves_to_position': 'Smarkant fährt in Position {position}!',
     'invalid_position': 'Position {position} is ungültig!',
     'smarkant_moves_to_height': 'Smarkant fährt auf {height} Zentimeter!',
-    'invalid_height': '{height} Zentimeter ist eine ungültige Höhe!'
+    'invalid_height': '{height} Zentimeter ist eine ungültige Höhe!',
+    'smarkant_help': 'Ich kann den Tisch "nach oben fahren", "nach unten fahren", "an eine Position fahren", "auf eine Höhe fahren", und "anhalten"',
+    'ok': 'Ok.'
   }
 };
 
@@ -112,6 +116,15 @@ const handlers = {
     } else {
       this.emit(':tell', i18n(this, 'invalid_height', {height: height}));
     }
+  },
+  'AMAZON.CancelIntent': function() {
+    this.emit(':tell', i18n(this, 'ok'));
+  },
+  'AMAZON.StopIntent': function() {
+    this.emit(':tell', i18n(this, 'ok'));
+  },
+  'AMAZON.HelpIntent': function() {
+    this.emit(':tell', i18n(this, 'smarkant_help'));
   }
 };
 

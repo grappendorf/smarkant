@@ -26,6 +26,12 @@
           "type": "AMAZON.NUMBER"
         }
       ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
     }
   ]
 }
